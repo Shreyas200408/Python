@@ -1,40 +1,63 @@
-# Function: Named set of Instructions to perfotm the Specific tasks
-# re-usable blocks
+# Loops : they are the Block of Codes to perform any task repeatedly
 
-# syntax : def fnName(): 
-                # code to be executed
-            # fnName()
+# Loops can be Applied on :
+#   1. List , Tuple, set, dictionary, Strings
+# 
 
-# def greet():
-#     print("Hello Good Morning")
+# Iteration : No of Times the Loop should run
 
-# greet() #function calling using Function name
-# greet()
-# greet()
-# greet()
-# greet()
-# greet()
+# # for : for loop runs as long as the condition is True
 
-# Fn Parameters : they are the storage classes, which acts as a Variables to store the Data.
-# fn Arumnets : Values which passed onto the Parameters
-# def greet(name,msg):
-#     print(f"Hello {name}, {msg}")
+# # For Loop Applied on List : 
+# # # 
 
-# # greet("Manoj")
-# # greet("Vivek")
-# # greet()
+# fruits ={ 'apple','banana','mango','Grapes','Orange'}
 
-# greet("Manoj","Uta Aytha..?")
-# greet("Shreyas","Nidde Madbeda")
+# for fruit in fruits:
+#     print(fruit)
 
-# def addition(a,b):
-#     return a + b  # return : used to get the values from the Fucntion (it returns the Value)
+# for i in range(0,11):
+#     print(i)
 
-# # result = addition(10,20)
+# for i in range(1,10): 
+#     print(i)
 
-# aInput = int(input("Enter the Value of a :  ")) 
-# bInput = int(input("Enter the Value of b :  ")) 
+# myPlace = 'Mysore'
+
+# for letter in myPlace:
+#     print(letter)
 
 
-# result = addition(aInput,bInput)
-# print(result)
+# break and COntinue Statements: 
+# break : it stops Iterating when the Particular Condition
+
+# fruits = ['apple','banana','mango','Grapes','Orange']
+
+# for fruit in fruits:
+
+#     if(fruit =='mango'):
+#         # break
+#         # continue
+
+#     print(fruit)
+
+
+
+# While : loop runs as long as the COndition becomes false.
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+# # i=0
+# # while i<11:
+# #     print(i)
+# #     i+=1
+
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue # to skip the current Iteration
+  print(i)
